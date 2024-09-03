@@ -1,5 +1,19 @@
-.d{
+.g{
   font-size: 2rem;
-  color: #333;
-  
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(45deg,
+                                    red,
+                                    orange,
+                                    yellow,
+                                    aqua,
+                                    blue,
+                                    purple);
+  background-size: 1200%;
+  animation: 4s linear 0s infinite alternate slide
+}
+
+@keyframe slide {
+  from{background-position: 0% 0%;}
+  to{background-position:100% 0%;}
 }
