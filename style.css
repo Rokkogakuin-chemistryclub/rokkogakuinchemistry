@@ -10,7 +10,7 @@
                                     blue,
                                     purple);
   background-size: 1200%;
-  animation: 4s linear 0s infinite alternate slide;
+  animation: 1s linear 0s infinite alternate slide;
 }
 
 @keyframes slide {
