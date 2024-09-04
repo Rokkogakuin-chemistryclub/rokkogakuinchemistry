@@ -21,14 +21,15 @@ h1{
   text-decoration: none;
   color: transparent;             /*文字を透明にする*/
     background-clip: text;          /*背景を文字で切り抜く*/
-    background-image : linear-gradient(45deg,
+    background-image: linear-gradient(45deg,
         red,
         orange,
         yellow,
         green,
         aqua,
         blue,
-        purple);
+        purple,
+        rgb(#9000ff));
   background-size: 1200%; 
     animation: 4s linear 0s infinite alternate slide;
   border-radius: 5px;
