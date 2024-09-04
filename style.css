@@ -18,18 +18,7 @@ h1{
 
 .link-btn{
   font-size: 1.5rem;
-  color: transparent;             /*文字を透明にする*/
-    background-clip: text;          /*背景を文字で切り抜く*/
-    background-image: linear-gradient(45deg,
-        red,
-        orange,
-        yellow,
-        green,
-        aqua,
-        blue,
-        purple);
-    background-size: 1200%; 
-    animation: 4s linear 0s infinite alternate slide; 
+  color: #eee; 
   text-decoration: none;
   border-radius: 5px;
   border-style: solid;
@@ -40,8 +29,4 @@ h1{
 #pdf-viewer{
   width: 95vw;
   height: calc(95vh - 2rem);
-}
-@keyframes slide { 
-    from { background-position: 0% 0%; } 
-    to { background-position: 100% 0%; }    /* 右から左へ移動するアニメーション */
 }
