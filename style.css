@@ -28,7 +28,8 @@ h1{
         green,
         aqua,
         blue,
-        purple);
+        purple,
+        rgb(#9000ff));
   background-size: 1200%; 
     animation: 4s linear 0s infinite alternate slide;
   border-radius: 5px;
